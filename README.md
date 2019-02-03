@@ -1,29 +1,7 @@
 # SKRegularText
 
-[![CI Status](https://img.shields.io/travis/shevakuilin/SKRegularText.svg?style=flat)](https://travis-ci.org/shevakuilin/SKRegularText)
-[![Version](https://img.shields.io/cocoapods/v/SKRegularText.svg?style=flat)](https://cocoapods.org/pods/SKRegularText)
-[![License](https://img.shields.io/cocoapods/l/SKRegularText.svg?style=flat)](https://cocoapods.org/pods/SKRegularText)
-[![Platform](https://img.shields.io/cocoapods/p/SKRegularText.svg?style=flat)](https://cocoapods.org/pods/SKRegularText)
+Replaces the content of the text that matches the condition of the regular expression with the specified character, highlights the custom color of the replaced text content, and provides the position & content of the replaced text content in the original text for Handle highlight clicks and corresponding page jumps. The default is to match the URL address (automatically ignore the email address) and support custom regular expressions.
 
-## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+将与正则表达式条件匹配的文本内容替换为指定字符，突出显示替换文本内容的自定义颜色，并在原始文本中提供替换文本内容的位置和内容，以便处理高亮显示单击和对应 页面跳转。 默认设置是匹配URL地址（自动忽略电子邮件地址）并支持自定义正则表达式。
 
-## Requirements
-
-## Installation
-
-SKRegularText is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'SKRegularText'
-```
-
-## Author
-
-shevakuilin, shevakuilin@gmail.com
-
-## License
-
-SKRegularText is available under the MIT license. See the LICENSE file for more info.
